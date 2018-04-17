@@ -4,7 +4,8 @@
   "description": "TestServer run AWS API REST with Express and Node.js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,10 @@
   },
   "homepage": "https://github.com/guillermounivalle/TestServer#readme",
   "dependencies": {
-    "Express": "^3.0.1"
+    "Express": "^3.0.1",
+    "body-parser": "^1.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
   }
 }
